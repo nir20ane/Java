@@ -34,7 +34,7 @@ import java.util.Arrays;
 		// This function adds zeros at the end. The number of zeroes add = zero count
 		public static int[] addzero(int[] nums,int zero_cnt)
 		{
-			for(int i=nums.length-1;i>zero_cnt;i--)
+			for(int i=nums.length-1;i>=zero_cnt;i--)
 			{
 				nums[i] = 0;
 			}
