@@ -1,51 +1,41 @@
-import java.util.Arrays;
 // Approach 1 - Count zeroes, Swap non zero elements and Add Zero's at the end - More operations are involved
-/*public class Movezeroes {
-	public static int[] movezeroes(int[] lst){
-		int zero_cnt = 0;
-		// Calculate numbers of zeroes in given array
-		for(int i=0;i<lst.length;i++)
-		{
-			if(lst[i] == 0)
-			{
-				zero_cnt += 1;
-			}
-		}
-		removenum(lst,0);
-		addzero(lst,zero_cnt);
-		return lst;
-		
+/*import java.util.Arrays;
+public class Move_zeroes {
+    public static void main(String[] args)
+    {
+       int [] arr = {0,1};
+   	   moveZeroes(arr);
+   	   System.out.println(Arrays.toString(arr));
+    }
+    public static void moveZeroes(int[] nums) 
+    { 
+        int index = removenum(nums,0);
+	    addzero(nums,index);		
 		}
 		// This function uses two pointer technique to move non zero numbers forward in the array
-		public static int[] removenum(int[] numbers, int target) 
-		{ 
-		      if(numbers.length==0) return numbers; 
-		      int i=0; 
-		      for(int j=0; j<numbers.length; j++)
-		      {
-		        if(numbers[j]!=target)
-		        {
-		        	numbers[i]=numbers[j];
-		          i++; 
-		        }
-		      }
-		 return numbers;
-		}
-		// This function adds zeros at the end. The number of zeroes add = zero count
-		public static int[] addzero(int[] nums,int zero_cnt)
+	public static int removenum(int[] numbers, int target) 
+	{ 
+        int index = 0;
+		for(int j=0; j<numbers.length; j++)
 		{
-			for(int i=nums.length-1;i>=zero_cnt;i--)
+		   if(numbers[j]!=target)
+		   {
+		      numbers[index] = numbers[j];
+		      index += 1; 
+		    }
+		 }
+        System.out.println(index);
+		return index;
+		}
+		// This function adds zeros at the end, starting from non zero index till lenth
+		public static int[] addzero(int[] nums,int index)
+		{
+			for(int i=index;i<nums.length;i++)
 			{
 				nums[i] = 0;
 			}
 		return nums;
 		}
-		
-	public static void main(String[] args) {
-		int[] arr = {2,0,0,2,0,1};
-		System.out.println(Arrays.toString(movezeroes(arr)));
-	}
-
 }*/
 // Approach 2
 public class Movezeroes{
