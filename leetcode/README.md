@@ -8,3 +8,5 @@ No. | Problem | Diffculty | Hint
 3 |	[Two Sum](https://leetcode.com/problems/two-sum/description/) | easy | Using Hash Map
 4 | [Validate IP](https://leetcode.com/problems/validate-ip-address/description/) | medium | Four different functions to validate all cases
 5 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | easy | consider previous string and form current string
+6 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | easy | List of List to append values / Using Array List
+7 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | easy | Sieve of Eratosthenes
