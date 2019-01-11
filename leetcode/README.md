@@ -12,3 +12,4 @@ No. | Problem | Diffculty | Hint
 7 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | easy | Sieve of Eratosthenes
 8 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) | easy | Using Array List
 9 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/description/) | easy | use ASCII to count characters
+10 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/\/description/) | easy | check length and character match
