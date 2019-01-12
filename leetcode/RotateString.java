@@ -8,7 +8,7 @@ Example 2:
 Input: A = 'abcde', B = 'abced'
 Output: false
 Note:
-** Contenate string str1+str1 and check if str2 is in str1
+** Concatenate string str1+str1 and check if str2 is in str1
 * Time Complexity - O(n^2)
 * Space Complexity - O(n) - since we concatenate two strings
 */
