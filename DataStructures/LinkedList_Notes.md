@@ -1,9 +1,9 @@
 *** Linked Lists ***
 Like links in chain, 
---> Head points to first node
---> first node has data and a pointer, this pointer points to second node
---> second node has data and a pointer, this pointer points to third node and so on
-________________________________________________________________________________________________
+ Head points to first node
+ first node has data and a pointer, this pointer points to second node
+ second node has data and a pointer, this pointer points to third node and so on
+
 *** Operations on Linked List ***
 --> PushFront, PopFront, TopFront
 --> PushBack, TopBack, PopBack
