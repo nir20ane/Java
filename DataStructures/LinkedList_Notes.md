@@ -1,5 +1,5 @@
 #  Linked Lists 
-1. Like links in chain, 
+1. Like links in chain 
 2. Head points to first node
 3. first node has data and a pointer, this pointer points to second node
 4. second node has data and a pointer, this pointer points to third node and so on
@@ -12,8 +12,8 @@
 
 ##   Time for Operations of Singly Linked List  
 1. PushFront- O(1)
-2.  PopFront - O(1)
-3.  TopFront - O(1)
+2. PopFront - O(1)
+3. TopFront - O(1)
 ###   if there is no tail pointer  
 1. PushBack - O(n)
 2. PopBack - O(n)
@@ -22,7 +22,7 @@
 1. TopBoack - O(1)
 2. PushBack - O(1)
 3. PopBack - O(n) - Because we don't know next to last element
-*** Head is difference as pointer points in a different way of pointing ***
+*** Head is different as pointer points in a different way/direction of pointing ***
 
 1. Remove - O(n)
 2. Empty - O(1)
@@ -47,7 +47,7 @@ empty lkist is nott possible without List class
 #  Advantages of using List class 
 1. keeps Track of head
 2. keeps trasize
-3 No conflicts
+3. No conflicts
   
 #  Singly Linked List ADT invariants 
 1. Size is always true (size and head fields are private)
@@ -66,7 +66,7 @@ empty lkist is nott possible without List class
 ### Inavairants about Sentinel 
 1. for an DLIST d, d.head != NULL
 2. for any node DLIST Node x, x.head != NULL
-3.for any node DLIST Node x, x.prev != NULL
+3. for any node DLIST Node x, x.prev != NULL
 4. for any node DLIST Node x, x.prev == y and y.next == x
 5. for any node DLIST Node x, x.next == y and y.prev == x
 6. Size that does not count sentinel, size is corrent
