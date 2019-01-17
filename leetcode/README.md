@@ -16,5 +16,6 @@ No. | Problem | Diffculty | Hint
 11 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | medium | shift from top till right
 12 | [Set Zero Matrices](https://leetcode.com/problems/set-matrix-zeroes/description/) | medium | 0th row and column as replacement
 13 | [Rotate String](https://leetcode.com/problems/rotate-string/description/) | easy | concatenate or two loops
-14 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | easy | Using reverse or Brute force
-15 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array//) | medium | low, high, mid target if's
+14 | [Rotate Array](https://leetcode.com/problems/rotate-array/description) | easy | Using reverse or Brute force
+15 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description) | medium | low, high, mid target if's
+16 | [ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description) | medium | Find Pivot and perform binary serach on two halves
