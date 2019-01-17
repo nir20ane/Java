@@ -77,14 +77,14 @@ public class MyLinkedList{
 	    	  Node last = this.head;
 	    	  while(last.next != null)last = last.next;
 	    	  last.next = newnode;	
-	    	  this.count++;
+	    	  this.count++; // insert an element at the end
 	      }
 	}
 	
 	public void printlist()
 	{
 		Node current = this.head;
-		while(current != null)
+		while(current != null)  // prints all elements of of lists
 		{
 			System.out.print(current.data+" ");
 			current = current.next;
@@ -106,10 +106,7 @@ public class MyLinkedList{
 			int i = 0;
 			while(current.next != null)
 			{
-				if(current.data == beforedata)
-				{
-					break;
-				}
+				if(current.data == beforedata) break;
 				current = current.next;
 				i++;
 			}
