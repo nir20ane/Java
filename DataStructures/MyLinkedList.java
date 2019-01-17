@@ -97,15 +97,15 @@ public class MyLinkedList{
 		if (!isInList(beforedata)) System.out.println("Element is not present in the current list");
 		else
 		{
-		Node newnode = new Node(data);
-		newnode.next = null;
-		Node current = this.head;
-		if(beforedata == current.data)
-		{
+		    Node newnode = new Node(data);
+		    newnode.next = null;
+		    Node current = this.head;
+		    if(beforedata == current.data)
+		    {
 			insertAtFirst(data);
-		}
-		else
-		{ 
+		    }
+		    else
+		    { 
 			int i = 0;
 			while(current.next != null)
 			{
@@ -117,7 +117,7 @@ public class MyLinkedList{
 				i++;
 			}
 			insertnth(data, i);
-		}
+		     }
 		}
 	}
 	public void findAt(int location)
