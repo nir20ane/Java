@@ -24,29 +24,28 @@ public class MyLinkedList{
 		private int data;
 		private Node next;
 		
-		Node(int d)
-		{
-			data = d;
-			next = null;
+		Node(int d) . //Constructor Node
+		{              
+		    data = d;
+		    next = null;
 		}
 		
 	}
 	public void insert(int data)
 	{
-		
-		Node newnode = new Node(data);
-		newnode.next = null;
+		Node newnode = new Node(data); //Node creation
+		newnode.next = null;  
 		if(this.head == null) 
 		{
 			this.head = newnode; // insert at head if head is null
-			this.count++;
+			this.count++;   //increase szie of list
 		}
 		else
 		{
 			Node last = this.head; // start from head and traverse till next != null
 			while(last.next != null)last = last.next;
 			last.next = newnode; // make the new node as last node
-			this.count++;
+			this.count++;  //increase szie of list
 		}
 	}
 	
@@ -55,7 +54,7 @@ public class MyLinkedList{
           if(this.head == null)
           {
     	      this.head = newnode;
-    	      this.count++;
+    	      this.count++;  //increase szie of list after inserting first item
           }
           else
           {
@@ -271,23 +270,13 @@ public class MyLinkedList{
 		list.insertnth(90, 10);
 		list.insertnth(90, 0);
 		list.printlist();
-		//System.out.println("Size of list is : "+list.size());
 		list.insertnth(80, 3);
 		list.printlist();
-		//System.out.println("Size of list is : "+list.size());
 		System.out.println(list.isInList(10));
 		list.insertBefore(56, 1000);
-		//list.printlist();
-		//System.out.println("Size of list is : "+list.size());
 		list.insertBefore(56, 90);
-		//System.out.println("Size of list is : "+list.size());
-		//list.printlist();
 		list.insertBefore(76, 20);
-//		System.out.println("Size of list is : "+list.size());
-//		list.printlist();
 		list.insertAfter(96, 50);
-//		System.out.println("Size of list is : "+list.size());
-//		list.printlist();
 		list.insertAfter(96, 10);
 		System.out.println("Size of list is : "+list.size());
 		list.printlist();
