@@ -1,12 +1,12 @@
 /* Implementing a singly linked list in java
 * Operations implemented include:
-* Insert(data) - Inserts data by creating a node
+* insert(data) - Inserts data by creating a node
 * insertAtFirst(data) - Inserts a node at head of list
 * insertAtEnd(data) - Inserts a node at tail of list
 * printlist() - Prints all elements in list
 * insertBefore(data, beforedata) - Inserts node before data item provided
 * insertAfter(data, afterdata) - Inserts node after data item provided
-* 
+* findAt(location) - Prints the data at that location
 */
 
 public class MyLinkedList{
@@ -26,7 +26,7 @@ public class MyLinkedList{
 		}
 		
 	}
-	public void Insert(int data)
+	public void insert(int data)
 	{
 		
 		Node newnode = new Node(data);
@@ -51,29 +51,25 @@ public class MyLinkedList{
 	     // this.count++;
 	}
 	
-	public void insertAtFirst(int data){
-		
-      Node newnode = new Node(data);
-      if(this.head == null)
-      {
-    	  this.head = newnode;
-			
-    	  this.count++;
-      }
-      else
-      {
-    	  newnode.next = this.head;
-    	  this.head = newnode;
-			
-    	  this.count++;
-      }
-      //this.count++;
-	}
+       public void insertAtFirst(int data){
+          Node newnode = new Node(data);
+          if(this.head == null)
+          {
+    	      this.head = newnode;
+    	      this.count++;
+          }
+          else
+          {
+    	      newnode.next = this.head;
+    	      this.head = newnode;
+    	      this.count++;
+          }
+         //this.count++;
+	  }
 	
 	public void insertAtEnd(int data){
 		
 	      Node newnode = new Node(data);
-	      
 	      if(this.head == null)
 	      {
 	    	  this.head = newnode;
@@ -91,7 +87,7 @@ public class MyLinkedList{
 	    	  this.count++;
 	      }
 	     // this.count++;
-		}
+	}
 	
 	public void printlist()
 	{
@@ -142,25 +138,25 @@ public class MyLinkedList{
 		if(location <0 || location >= this.count) System.out.println("Not a valid location");
 		else
 		{
-		if(location == 0)
-		{
+		    if(location == 0)
+		    {
 			System.out.println("Value at location 0 is :"+current.data);
-		}
-		else
-		{
-			int i = 0;
-			while(i <= location)
+		    }
+		    else
+		    {
+		    int i = 0;
+		    while(i <= location)
 			{
-				//System.out.println("I value is is : "+i);
-				if(i == location)
-				{
-					System.out.println("Data at location "+i+" is : "+current.data);
-					break;
-				}
-				if(current.next != null) current = current.next;
-				i++;
+			    //System.out.println("I value is is : "+i);
+			    if(i == location)
+			     {
+			        System.out.println("Data at location "+i+" is : "+current.data);
+				break;
+			      }
+			     if(current.next != null) current = current.next;
+			     i++;
 			}
-		}
+		    }
 		}
 		
 	}
@@ -172,17 +168,17 @@ public class MyLinkedList{
 			}
 		else
 		{
-		Node current = this.head;
-		Node newnode = new Node(data);
-		newnode.next = null;
-		int i=0;
-		while(current.next != null)
-		{
+		    Node current = this.head;
+		    Node newnode = new Node(data);
+		    newnode.next = null;
+		    int i=0;
+		    while(current.next != null)
+		    {
 			if(current.data == afterdata) break;
 			current = current.next;
 			i++;
-		}
-		insertnth(data, i+1);
+		    }
+		    insertnth(data, i+1);
 		}
 	}
 	
@@ -207,26 +203,26 @@ public class MyLinkedList{
 
 		if(atposition < 0 || atposition >= this.count)
 		{
-			System.out.println("Not a valid position, size of list is : "+this.count);
+		    System.out.println("Not a valid position, size of list is : "+this.count);
 		}
 		else
 		{
-			Node newnode = new Node(data);
-			newnode.next = null;
-			if(atposition == 0)
+		    Node newnode = new Node(data);
+		    newnode.next = null;
+		    if(atposition == 0)
 			{
-				insertAtFirst(data);
+			    insertAtFirst(data);
 			}
-			else
+		    else
 			{
-				Node current = this.head;
-				for(int i = 1;i < atposition;i++)
+			    Node current = this.head;
+			    for(int i = 1;i < atposition;i++)
 				{
-					current = current.next;
+			            current = current.next;
 				}
-				newnode.next = current.next;
-				current.next = newnode;
-				this.count++;
+			     newnode.next = current.next;
+			     current.next = newnode;
+			     this.count++;
 			}
 		}
 	}
@@ -240,9 +236,9 @@ public class MyLinkedList{
 			int i=0;
 			while(current.next != null)
 			{
-				if(current.data == data) break;
-                current = current.next;
-				i++;
+			    if(current.data == data) break;
+                            current = current.next;
+			    i++;
 			}
 			removeNth(i+1);
 			System.out.println("I value is :"+ i);
@@ -255,17 +251,17 @@ public class MyLinkedList{
 		Node prevnode = null;
 		if(position ==0)
 		{
-            this.head = this.head.next;
+                    this.head = this.head.next;
 		}
 		else
 		{
-		for(int i=1; i<position; i++)
-		{
+		     for(int i=1; i<position; i++)
+		     {
 			prevnode = current;
 			current = current.next;
 			
-		}
-		prevnode.next = current.next;
+		     }
+		     prevnode.next = current.next;
 		}
 		this.count--;
 	}
@@ -296,8 +292,8 @@ public class MyLinkedList{
 	public static void main(String[] args)
 	{
 		MyLinkedList list = new MyLinkedList();
-		list.Insert(20);
-		list.Insert(30);
+		list.insert(20);
+		list.insert(30);
 		list.insertAtFirst(10);
 		list.insertAtEnd(100);
 		list.printlist();
