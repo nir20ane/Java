@@ -100,10 +100,7 @@ public class MyLinkedList{
 		    Node newnode = new Node(data);
 		    newnode.next = null;
 		    Node current = this.head;
-		    if(beforedata == current.data)
-		    {
-			insertAtFirst(data);
-		    }
+		    if(beforedata == current.data) insertAtFirst(data);
 		    else
 		    { 
 			int i = 0;
