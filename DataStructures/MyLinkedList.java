@@ -146,10 +146,7 @@ public class MyLinkedList{
 	}
 	public void insertAfter(int data, int afterdata)
 	{
-		if(!isInList(afterdata)) 
-		{
-		    System.out.print("Element is not present in current list"); 
-		}
+		if(!isInList(afterdata)) System.out.print("Element is not present in current list");
 		else
 		{
 		    Node current = this.head;
@@ -181,7 +178,6 @@ public class MyLinkedList{
 	
 	public void insertnth(int data, int atposition)
 	{
-
 		if(atposition < 0 || atposition >= this.count) System.out.println("Not a valid position, size of list is : "+this.count);
 		else
 		{
