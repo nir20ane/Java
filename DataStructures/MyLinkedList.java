@@ -11,6 +11,7 @@
 * removeNth(Location) - Will delete element at this location
 * removeAtFirst() - Removes First Element from List
 * removeAtLast() - Removes Last Element from List
+* isInList(data) - checks and true if given data element is present in list, returns false otherwise
 */
 
 public class MyLinkedList{
