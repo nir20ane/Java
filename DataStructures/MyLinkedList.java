@@ -7,6 +7,10 @@
 * insertBefore(data, beforedata) - Inserts node before data item provided
 * insertAfter(data, afterdata) - Inserts node after data item provided
 * findAt(location) - Prints the data at that location
+* remove(data) - Will delete data element from list
+* removeNth(Location) - Will delete element at this location
+* removeAtFirst() - Removes First Element from List
+* removeAtLast() - Removes Last Element from List
 */
 
 public class MyLinkedList{
@@ -34,21 +38,15 @@ public class MyLinkedList{
 		if(this.head == null) 
 		{
 			this.head = newnode; // insert at head if head is null
-			
 			this.count++;
 		}
 		else
 		{
 			Node last = this.head; // start from head and traverse till next != null
-			while(last.next != null)
-			{
-				last = last.next;
-			}
+			while(last.next != null)last = last.next;
 			last.next = newnode; // make the new node as last node
-			
 			this.count++;
 		}
-	     // this.count++;
 	}
 	
        public void insertAtFirst(int data){
@@ -64,7 +62,6 @@ public class MyLinkedList{
     	      this.head = newnode;
     	      this.count++;
           }
-         //this.count++;
 	  }
 	
 	public void insertAtEnd(int data){
@@ -78,15 +75,10 @@ public class MyLinkedList{
 	      else
 	      {
 	    	  Node last = this.head;
-	    	  while(last.next != null)
-	    	  {
-	    		  last = last.next;
-	    	  }
+	    	  while(last.next != null)last = last.next;
 	    	  last.next = newnode;	
-				
 	    	  this.count++;
 	      }
-	     // this.count++;
 	}
 	
 	public void printlist()
@@ -102,10 +94,7 @@ public class MyLinkedList{
 	
 	public void insertBefore(int data, int beforedata)
 	{
-		if (!isInList(beforedata))
-		{
-			System.out.println("Element is not present in the current list");
-		}
+		if (!isInList(beforedata)) System.out.println("Element is not present in the current list");
 		else
 		{
 		Node newnode = new Node(data);
@@ -127,7 +116,6 @@ public class MyLinkedList{
 				current = current.next;
 				i++;
 			}
-			//System.out.println("I value is : "+i);
 			insertnth(data, i);
 		}
 		}
@@ -138,16 +126,12 @@ public class MyLinkedList{
 		if(location <0 || location >= this.count) System.out.println("Not a valid location");
 		else
 		{
-		    if(location == 0)
-		    {
-			System.out.println("Value at location 0 is :"+current.data);
-		    }
+		    if(location == 0)System.out.println("Value at location 0 is :"+current.data);
 		    else
 		    {
 		    int i = 0;
 		    while(i <= location)
 			{
-			    //System.out.println("I value is is : "+i);
 			    if(i == location)
 			     {
 			        System.out.println("Data at location "+i+" is : "+current.data);
@@ -163,9 +147,9 @@ public class MyLinkedList{
 	public void insertAfter(int data, int afterdata)
 	{
 		if(!isInList(afterdata)) 
-			{
-			System.out.print("Element is not present in current list"); 
-			}
+		{
+		    System.out.print("Element is not present in current list"); 
+		}
 		else
 		{
 		    Node current = this.head;
@@ -188,10 +172,7 @@ public class MyLinkedList{
 		Node current = this.head;
 		while(current.next != null)
 		{
-			if(current.data == data)
-			{
-				return true;
-			}
+			if(current.data == data) return true;
 			current = current.next;
 		}
 		return false;
@@ -201,18 +182,12 @@ public class MyLinkedList{
 	public void insertnth(int data, int atposition)
 	{
 
-		if(atposition < 0 || atposition >= this.count)
-		{
-		    System.out.println("Not a valid position, size of list is : "+this.count);
-		}
+		if(atposition < 0 || atposition >= this.count) System.out.println("Not a valid position, size of list is : "+this.count);
 		else
 		{
 		    Node newnode = new Node(data);
 		    newnode.next = null;
-		    if(atposition == 0)
-			{
-			    insertAtFirst(data);
-			}
+		    if(atposition == 0) insertAtFirst(data);
 		    else
 			{
 			    Node current = this.head;
@@ -249,17 +224,13 @@ public class MyLinkedList{
 	{
 		Node current = this.head;
 		Node prevnode = null;
-		if(position ==0)
-		{
-                    this.head = this.head.next;
-		}
+		if(position ==0) this.head = this.head.next;
 		else
 		{
 		     for(int i=1; i<position; i++)
 		     {
 			prevnode = current;
 			current = current.next;
-			
 		     }
 		     prevnode.next = current.next;
 		}
@@ -279,7 +250,6 @@ public class MyLinkedList{
 		{
 			current = current.next;
 			i++;
-			
 		}
 		removeNth(i+1);
 	}
