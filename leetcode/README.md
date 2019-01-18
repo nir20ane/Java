@@ -19,3 +19,5 @@ No. | Problem | Diffculty | Hint
 14 | [Rotate Array](https://leetcode.com/problems/rotate-array/description) | easy | Using reverse or Brute force
 15 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description) | medium | low, high, mid target if's
 16 | [ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description) | medium | Find Pivot and perform binary serach on two halves
+17 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description) | medium | Binary search, left and right
+18 | [ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description) | hard | Binary search, with mid == high condition
