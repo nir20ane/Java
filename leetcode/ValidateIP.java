@@ -38,17 +38,17 @@ public class ValidateIP {
 		}
 		public static Boolean validateIPv4(String s)
 		{
-	        try
-			{
-				int a = Integer.parseInt(s);
-	            if(a>255) return false;
-				if(a<0) return false;
-				if(!(String.valueOf(a).equals(s))) return false;
-			}
-			catch(NumberFormatException e)
-	        {
-	            return false;
-	        }
+	            try
+		    {
+			 int a = Integer.parseInt(s);
+	                 if(a>255) return false;
+			 if(a<0) return false;
+		         if(!(String.valueOf(a).equals(s))) return false;
+		    }
+		    catch(NumberFormatException e)
+	            {
+	                return false;
+	            }
 		    return true;	
 		}
 		
@@ -60,8 +60,8 @@ public class ValidateIP {
 			if(s.length!=8) return false;
 			for(int i=0;i<s.length;i++)
 			{
-	            if(s[i].equals(null)) return false;
-				if(!validateIPv6(s[i])) return false;
+	                    if(s[i].equals(null)) return false;
+		            if(!validateIPv6(s[i])) return false;
 			}
 			return true;
 		}
