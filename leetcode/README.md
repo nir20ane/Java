@@ -7,7 +7,7 @@ No. | Problem | Diffculty | Hint
 2 |	[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | easy | XOR
 3 |	[Two Sum](https://leetcode.com/problems/two-sum/description/) | easy | Using Hash Map
 4 | [Validate IP](https://leetcode.com/problems/validate-ip-address/description/) | medium | Four different functions to validate all cases
-5 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | easy | consider previous string and form current string (https://github.com/nir20ane/Java/blob/master/leetcode/Count_and_say.java)
+5 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | easy | [consider previous string and form current string](https://github.com/nir20ane/Java/blob/master/leetcode/Count_and_say.java)
 6 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | easy | List of List to append values / Using Array List
 7 | [Count Primes](https://leetcode.com/problems/count-primes/description/) | easy | Sieve of Eratosthenes
 8 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) | easy | Using Array List
