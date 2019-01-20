@@ -24,7 +24,7 @@ public class MyLinkedList{
 		private int data;
 		private Node next;
 		
-		Node(int d) . //Constructor Node
+		Node(int d)  //Constructor Node
 		{              
 		    data = d;
 		    next = null;
