@@ -23,4 +23,4 @@ No. | Problem | Diffculty | Hint
 18 | [ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description) | hard | [Binary search, with mid == high condition](https://github.com/nir20ane/Java/blob/master/leetcode/SearchMinSortArray2.java)
 19 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Recursion.java)
 20 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Iteration.java)
-20 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description) | easy | [Fast and Slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/MiddleofLinkedList.java)
+21 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description) | easy | [Fast and Slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/MiddleofLinkedList.java)
