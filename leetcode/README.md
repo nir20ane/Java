@@ -28,5 +28,5 @@ No. | Problem | Diffculty | Hint
 23 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/MergeTwoSortedLists_Iteration.java)
 24 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/MergeTwoSortedLists_Recursion.java)
 25 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description) | easy | [Traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveDuplicatesfromSortedList.java)
-26 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements//description) | easy | [Traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveLinkedListElements.java)
+26 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements//description) | easy | [Determine head and traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveLinkedListElements.java)
 27 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description) | easy | [fast and slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/LinkedListCycle.java)
