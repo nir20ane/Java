@@ -1,6 +1,7 @@
 # Leetcode Problems
 This has Leetcode solutions in Java. Most problems have one or more solutions.
 
+# Arrays and Strings
 No. | Problem | Diffculty | Hint
 --- | --- | --- | ---
 1 |	[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | easy | [Two Pointer Technique](https://github.com/nir20ane/Java/blob/master/leetcode/Movezeroes.java)
@@ -21,16 +22,21 @@ No. | Problem | Diffculty | Hint
 16 | [ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description) | medium | [Find Pivot and perform binary serach on two halves](https://github.com/nir20ane/Java/blob/master/leetcode/SortRotArrayII.java)
 17 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description) | medium | [Binary search, left and right](https://github.com/nir20ane/Java/blob/master/leetcode/SearchMinSortArray.java)
 18 | [ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description) | hard | [Binary search, with mid == high condition](https://github.com/nir20ane/Java/blob/master/leetcode/SearchMinSortArray2.java)
-19 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Recursion.java)
-20 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Iteration.java)
-21 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description) | easy | [Fast and Slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/MiddleofLinkedList.java)
-22 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description) | easy | [Update next](https://github.com/nir20ane/Java/blob/master/leetcode/DeleteNodefromList.java)
-23 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/MergeTwoSortedLists_Iteration.java)
-24 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/MergeTwoSortedLists_Recursion.java)
-25 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description) | easy | [Traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveDuplicatesfromSortedList.java)
-26 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements//description) | easy | [Determine head and traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveLinkedListElements.java)
-27 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description) | easy | [fast and slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/LinkedListCycle.java)
-28 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description) | easy | [slow and fast runners, odd length, reverse slow and compare](https://github.com/nir20ane/Java/blob/master/leetcode/PalindromeLinkedList.java)
-29 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description) | easy | [get length, adjust length, and compare](https://github.com/nir20ane/Java/blob/master/leetcode/IntersectionofLinkedLists.java)
-30 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description) | medium | [dummy, i , j, last va < 9 = i](https://github.com/nir20ane/Java/blob/master/leetcode/PlusOneLinkedList.java)
-31 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description) | medium | [Use set,comapre val and next val](https://github.com/nir20ane/Java/blob/master/leetcode/LinkedListComponents.java)
+
+# Linked Lists
+No. | Problem | Diffculty | Hint
+1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Recursion.java)
+2 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Iteration.java)
+3 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description) | easy | [Fast and Slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/MiddleofLinkedList.java)
+4 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description) | easy | [Update next](https://github.com/nir20ane/Java/blob/master/leetcode/DeleteNodefromList.java)
+5 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/MergeTwoSortedLists_Iteration.java)
+6 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/MergeTwoSortedLists_Recursion.java)
+7 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description) | easy | [Traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveDuplicatesfromSortedList.java)
+8 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements//description) | easy | [Determine head and traverse through List](https://github.com/nir20ane/Java/blob/master/leetcode/RemoveLinkedListElements.java)
+9 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description) | easy | [fast and slow runners](https://github.com/nir20ane/Java/blob/master/leetcode/LinkedListCycle.java)
+10 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description) | easy | [slow and fast runners, odd length, reverse slow and compare](https://github.com/nir20ane/Java/blob/master/leetcode/PalindromeLinkedList.java)
+11 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description) | easy | [get length, adjust length, and compare](https://github.com/nir20ane/Java/blob/master/leetcode/IntersectionofLinkedLists.java)
+12 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description) | medium | [dummy, i , j, last va < 9 = i](https://github.com/nir20ane/Java/blob/master/leetcode/PlusOneLinkedList.java)
+13 | [Linked List Components](https://leetcode.com/problems/linked-list-components/description) | medium | [Use set,comapre val and next val](https://github.com/nir20ane/Java/blob/master/leetcode/LinkedListComponents.java)
+14 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers-ii/description) | medium | [Have new node as 1, use helper with length and offset](https://github.com/nir20ane/Java/blob/master/leetcode/AddTwoNumbersinLinkedList.java)
+15 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description) | medium | [Use two loops, one k and another width, i and remaining ](https://github.com/nir20ane/Java/blob/master/leetcode/SplitLinkedListinParts.java)
