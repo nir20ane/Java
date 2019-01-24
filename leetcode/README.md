@@ -2,7 +2,7 @@
 This has Leetcode solutions in Java. Most problems have one or more solutions.
 
 # Arrays and Strings
-No. | Problem | Diffculty | Hint
+No. | Problem | Diffculty | Hint(Solution in hyperlink)
 --- | --- | --- | ---
 1 |	[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | easy | [Two Pointer Technique](https://github.com/nir20ane/Java/blob/master/leetcode/Movezeroes.java)
 2 |	[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | easy | [XOR](https://github.com/nir20ane/Java/blob/master/leetcode/Hamming_distance.java)
@@ -24,7 +24,7 @@ No. | Problem | Diffculty | Hint
 18 | [ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description) | hard | [Binary search, with mid == high condition](https://github.com/nir20ane/Java/blob/master/leetcode/SearchMinSortArray2.java)
 
 # Linked Lists
-No. | Problem | Diffculty | Hint
+No. | Problem | Diffculty | Hint(Solution in hyperlink)
 --- | --- | --- | ---
 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Recursion](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Recursion.java)
 2 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description) | easy | [Iteration](https://github.com/nir20ane/Java/blob/master/leetcode/ReverseLinkedList_Iteration.java)
