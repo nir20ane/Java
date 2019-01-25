@@ -18,7 +18,7 @@ public class SearchinRotArray {
 	public int search(int[] nums, int target)
 	{
         if(nums.length < 1) { return -1;}  // corner cases are taken care here
-        if(nums.length == 0 && (nums[0] == target)) {return 0; }
+        if(nums.length == 0 && (nums[0] == target)) {return nums[0]; }
         if(nums.length == 0 && (nums[0] != target)) {return -1; } 
         
         int high = nums.length - 1; int low = 0;
