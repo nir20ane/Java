@@ -78,4 +78,7 @@ No. | Problem | Diffculty | Hint(Solution in hyperlink)
 --- | ------- | --- | ---
 1 | [Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/description) | medium | [Use Stack and Map](https://github.com/nir20ane/Java/blob/master/leetcode/Stack/ValidParanthesis.java)
 
-
+# General
+No. | Problem | Diffculty | Hint(Solution in hyperlink)
+--- | ------- | --- | ---
+1 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description) | hard | [lmax, right and rainmax](https://github.com/nir20ane/Java/blob/master/leetcode/TrappingRainWater.java)
