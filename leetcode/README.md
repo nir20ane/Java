@@ -22,6 +22,7 @@ No. | Problem | Diffculty | Hint(Solution in hyperlink)
 16 | [ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description) | medium | [Find Pivot and perform binary serach on two halves](https://github.com/nir20ane/Java/blob/master/leetcode/Arrays_and_Strings/SortRotArrayII.java)
 17 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description) | medium | [Binary search, left and right](https://github.com/nir20ane/Java/blob/master/leetcode/Arrays_and_Strings/SearchMinSortArray.java)
 18 | [ Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description) | hard | [Binary search, with mid == high condition](https://github.com/nir20ane/Java/blob/master/leetcode/Arrays_and_Strings/SearchMinSortArray2.java)
+19 | [3Sum](https://leetcode.com/problems/3sum/description) | hard | [have i,j,k and target, i+2<arry.length](https://github.com/nir20ane/Java/blob/master/leetcode/ThreeSum.java)
 
 # Linked Lists
 No. | Problem | Diffculty | Hint(Solution in hyperlink)
@@ -64,3 +65,17 @@ No. | Problem | Diffculty | Hint(Solution in hyperlink)
 No. | Problem | Diffculty | Hint(Solution in hyperlink)
 --- | ------- | --- | ---
 1 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description) | medium | [Sliding window approach](https://github.com/nir20ane/Java/blob/master/leetcode/FruitIntoBaskets.java)
+2 | [Length of Longest Substring Without Repeating charcters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description) | medium | [Sliding window approach](https://github.com/nir20ane/Java/blob/master/leetcode/LengthofLongestSubstring.java)
+3 | [Length of longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/description) | medium | [Sliding window approach](https://github.com/nir20ane/Java/blob/master/leetcode/LongestPalindromicSubstring.java)
+
+# Number problems
+No. | Problem | Diffculty | Hint(Solution in hyperlink)
+--- | ------- | --- | ---
+1 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description) | Hard | [Have lessthan 20, tens and thousands](https://github.com/nir20ane/Java/blob/master/leetcode/IntegertoEnglishWords.java)
+
+# Stack
+No. | Problem | Diffculty | Hint(Solution in hyperlink)
+--- | ------- | --- | ---
+1 | [Valid Paranthesis](hhttps://leetcode.com/problems/valid-parentheses/description) | medium | [Use Stack and Map](https://github.com/nir20ane/Java/blob/master/leetcode/Stack/ValidParanthesis.java)
+
+
