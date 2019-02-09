@@ -76,6 +76,6 @@ No. | Problem | Diffculty | Hint(Solution in hyperlink)
 # Stack
 No. | Problem | Diffculty | Hint(Solution in hyperlink)
 --- | ------- | --- | ---
-1 | [Valid Paranthesis](hhttps://leetcode.com/problems/valid-parentheses/description) | medium | [Use Stack and Map](https://github.com/nir20ane/Java/blob/master/leetcode/Stack/ValidParanthesis.java)
+1 | [Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/description) | medium | [Use Stack and Map](https://github.com/nir20ane/Java/blob/master/leetcode/Stack/ValidParanthesis.java)
 
 
