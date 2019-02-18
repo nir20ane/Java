@@ -1,7 +1,7 @@
 package myhashtable;
 
 public class MyHashTable {
-	private static int size = 26;
+    private static int size = 26;
     private HashEntry[] entries = new HashEntry[size];
 	
     public void put(String key, String value)
@@ -77,7 +77,7 @@ public class MyHashTable {
         }
     }
     
-	public static class HashEntry{
+    public static class HashEntry{
 			String key;
 			String value;
 			HashEntry next;
@@ -88,11 +88,12 @@ public class MyHashTable {
 			}
 	}
 	
-	public int gethash(String key)
+    public int gethash(String key)
 	{
 	    return key.hashCode()%size;
 	}
-	public static void main(String[] args) {
+	
+    public static void main(String[] args) {
 		MyHashTable myht = new MyHashTable();
 		for(int i=0;i<30;i++)
 		{
