@@ -1,4 +1,4 @@
-"""*
+/* 
  * License Key Formatting
  * You are given a license key represented as a string S which consists only alphanumeric character and dashes. The string is separated into N+1 groups by N dashes.
  * Given a number K, we would want to reformat the strings such that each group contains exactly K characters, except for the first group which could be shorter than K, but still must contain at least one character. Furthermore, there must be a dash inserted between two groups and all lowercase letters should be converted to uppercase.
@@ -16,22 +16,34 @@
  * The length of string S will not exceed 12,000, and K is a positive integer.
  * String S consists only of alphanumerical characters (a-z and/or A-Z and/or 0-9) and dashes(-).
  * String S is non-empty.
-* """
-class LicenseKeyFormatting(object):
-    def formatting(self, S, K):
-        count = 0
-        str = ""
-        for i in range(len(S)-1, -1, -1):
-            c = S[i]
-            if c == "-":
-                continue
-            if count == K:
-                str += "-"
-                count = 0
-            str += c.upper()
-            count += 1
-        return str[::-1]
+*/
+package leetcodenew;
 
-lck = LicenseKeyFormatting()
-print(lck.formatting("5F3Z-2e-9-w", 4))
-print(lck.formatting("2-5g-3-J", 2))
+public class LicenseKeyFormatting {
+	
+	public String formatting(String S, int K)
+	{
+		int n = S.length()-1;
+		StringBuilder sb = new StringBuilder();
+		int count = 0;
+		for(int i=n;i>=0;i--)
+		{
+			char c = S.charAt(i);
+			if(c == '-') continue;
+			if(count == K)
+			{
+				sb.append('-');
+				count = 0;
+			}
+			sb.append(Character.toUpperCase(c));
+			count ++;
+		}
+		return sb.reverse().toString();
+	}
+
+	public static void main(String[] args) {
+		LicenseKeyFormatting lkf = new LicenseKeyFormatting();
+		System.out.println(lkf.formatting("2-5g-3-J", 2));
+		System.out.println(lkf.formatting("5F3Z-2e-9-w", 4));
+	}
+}
